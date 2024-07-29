@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "description": "A sweet red fruit",
+    "ratings": [
+      1
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "description": "A long yellow fruit",
+    "ratings": []
+  },
+  {
+    "name": "Orange",
+    "description": "a juice citrus fruit",
+    "id": 3
+  },
+  {
+    "name": "Pine",
+    "description": "a fruit",
+    "id": 4,
+    "ratings": []
+  }
+]

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Admin Dashboard</h1>
+    <form id="login-form">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+    </form>
+
+    <div id="admin-panel" style="display:none;">
+        <h2>Items</h2>
+        <div id="item-list"></div>
+        <h2>Add Item</h2>
+        <form id="add-item-form">
+            <input type="text" id="item-name" placeholder="Item Name" required>
+            <input type="text" id="item-description" placeholder="Item Description" required>
+            <button type="submit">Add Item</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,22 +1,17 @@
 {
-  "name": "my-backend-project",
+  "name": "project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "LuWii",
+  "license": "MIT",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "dotenv": "^16.4.5",
+    "body-parser": "^1.20.2",
     "express": "^4.19.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.5.1"
-  },
-  "devDependencies": {
     "nodemon": "^3.1.4"
   }
 }

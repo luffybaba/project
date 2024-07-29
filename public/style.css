@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input, button {
+    margin: 5px;
+  }
+  
+  #item-list {
+    margin-top: 20px;
+  }
+  
+  #item-list div {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
